@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    box-shadow: 20px 20px 30px 30px rgba(0, 0, 0, 0.06);
+}
+.nav{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+.item{
+    display: flex;
+}
+.item li{
+    margin-top: 5px;
+    padding: 0 15px;
+    list-style: none;
+}
+.item li a{
+    font-weight: 500;
+    font-size: 21px;
+    text-decoration: none;
+    color:#FFE8F5;
+}
+.item li a:hover{
+    color: blue;
+    transition: 0.6s;
+}
+.featured{
+    width: 1300px;
+    height: 265px;
+    background-color: aquamarine;
+}
+
+
+/* cources  */
+
+#cources1{
+    width: 1300px;
+    height: 290px;
+    background-color: #F95700;
+}
+
+.section-main .cource{
+    /* height: 300px; */
+    margin-left: 700px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    text-align: center;
+    
+}
+#cources h4{
+    margin-top: 8px;
+}
+#cources .intro{
+    padding-top: 65px;
+    padding-left: 50px;
+    width: 700px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+}
+#cources .intro h1{
+    font-size: 39px;
+    font-weight: 700;
+}
+.cource .detail{
+    /* margin-top: 70px; */
+    height: 500px;
+    background-color: #c0babd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px 30px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+}
+
+
