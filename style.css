@@ -74,6 +74,7 @@
 
 /* count downn  */
 .countdown{
+    color: #fff;
     background-color: #c40a22;
     text-align: center;
 }
@@ -393,7 +394,7 @@
         font-weight: 400;
     }
     .section-main{
-        padding: 40px 32px;
+        padding: 40px 20px;
     }
     #hero{
         opacity: 0;
@@ -403,6 +404,11 @@
         padding: 15px 10px;
         border-radius: 4px;
         margin: 15px 0;
+    }
+    #cources {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .cource{
         display: inline-block;
