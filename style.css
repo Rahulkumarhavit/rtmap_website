@@ -73,11 +73,28 @@
 
 
 /* count downn  */
-.countdown{
+
+.event {
+    height: 18px;
+    position: relative;
+    left: -100px; 
+    background-color: #f1f1f1;
+    animation: moveEvent 20s linear infinite;
+  }
+  
+  .event:hover {
+    animation-play-state: paused;
+  }
+  
+  @keyframes moveEvent {
+    0% { left: -100px; }
+    100% { left: calc(100% + 100px); }
+  }
+/* .countdown{
     color: #fff;
     background-color: #c40a22;
     text-align: center;
-}
+} */
 
 /* featues  */
 
