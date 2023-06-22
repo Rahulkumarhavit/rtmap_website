@@ -350,6 +350,9 @@
     .nav {
         padding: 5px 30px;
     }
+    .logo a {
+    font-size: 24px;
+}
     .fea-head{
         margin-top: -70px;
     }
