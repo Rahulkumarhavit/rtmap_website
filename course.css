@@ -174,7 +174,7 @@
   
   
   /* form  */
-  .contact{
+  .contact1{
     background-color: #ccc;
     border-radius: 0 50px 0 50px;
   }
@@ -216,7 +216,7 @@
   }
   .feedback-box{
     width: 30%;
-    border: 1px solid #666;
+    border: 1px solid #004AAD;
     padding: 20px;
   }
   .stdtdl{
@@ -231,6 +231,7 @@
   }
   .stdtdl p{
     margin: 0;
+    color: #200813;
   }
   .stdtdl img{
     width: 160px;
@@ -241,6 +242,7 @@
     word-spacing: 2px;
     letter-spacing: 1px;
     font-family: cursive;
+    color: #200813;
   }
   
   
@@ -276,6 +278,7 @@
   .learn h1,  .contact h1, .feedback h1 {
     font-size: 26px;
     word-spacing: 2px;
+    color: #004AAD;
   }
   .accordion-item {
     width: 140%;

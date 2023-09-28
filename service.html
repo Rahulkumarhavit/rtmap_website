@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Website Services</title>
+    <style>
+        /* Add your custom styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004AAD;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.service {
+    text-align: center;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+button {
+    background-color: #004AAD;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #004AAD;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Website Services</h1>
+    </header>
+
+    <section class="services">
+        <div class="service">
+            <h2>Web Design</h2>
+            <p>We create stunning and user-friendly website designs tailored to your brand.</p>
+        </div>
+        <div class="service">
+            <h2>Web Development</h2>
+            <p>Our team of developers can build custom websites and web applications.</p>
+        </div>
+        <div class="service">
+            <h2>SEO Optimization</h2>
+            <p>We optimize websites for search engines to improve visibility and rankings.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>If you're interested in our services, please get in touch.</p>
+        <button id="contactButton">Contact Us</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Website Services</p>
+    </footer>
+
+    <script>
+        // JavaScript code for handling the "Contact Us" button
+document.getElementById('contactButton').addEventListener('click', function() {
+    alert('Please contact us at contact@example.com for inquiries.');
+});
+
+    </script>
+</body>
+</html>
